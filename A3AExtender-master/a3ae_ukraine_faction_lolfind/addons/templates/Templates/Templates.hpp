@@ -1,21 +1,26 @@
 class Templates {
     class Vanilla_Base; //import Vanilla_Base from A3A to use with defining a new vanilla template
 
-    class Vanilla_AAF { // overwrite existing template
-        basepath = QPATHTOFOLDER(Templates\Vanilla);
-        file = "Vanilla_AI_AAF";
-    };
 
-    class Vanilla_CSAT2 : Vanilla_Base
+    /* Change the base class to RHS_Base and add the requiredAddons, basepath, logo, priority, and equipFlags properties. Then, create a new class for the RHS AFRF faction that inherits from RHS_Base and set the side, flagTexture, logo, name, file, and description properties.
+    class RHS_Base : Base
     {
-        basepath = QPATHTOFOLDER(Templates\Vanilla); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
-        side = "Inv"; //the side the faction defaults to, one of the following: Inv, Occ, Reb, Civ
-        flagTexture = "A3\Data_F\Flags\Flag_CSAT_CO.paa"; //path to an icon to be displayed in the selector
-        name = "A3 CSAT 2"; //the name shown in the selector
-        file = "Vanilla_AI_CSAT2"; //the template file name
-        maps[] = {}; //if this template should be prioritized on any maps (case sensetive to worldName)
-        climate[] = {"arid", "arctic"}; //climate that the template is meant for
+        requiredAddons[] = {"rhsgref_main", "rhssaf_c_vehicles", "rhs_c_tanks", "RHS_US_A2Port_Armor"};
+        basepath = QPATHTOFOLDER(Templates\Templates\RHS);
+        logo = "\rhsusf\addons\rhsusf_main\data\rhs_logo_ca.paa";
+        priority = 30;
+        equipFlags[] = {"specialRHS"};
     };
+    class RHS_AFRF : RHS_Base
+    {
+        side = "Inv";
+        flagTexture = "rhsafrf\addons\rhs_main\data\flag_rus_co.paa";
+        logo = "rhsafrf\addons\rhs_main\data\rhs_logo_ca.paa";
+        name = "RHS AFRF";
+        file = "RHS_AI_AFRF";
+        description = $STR_A3AP_setupFactionsTab_aegis_afrf;
+    };
+    */
 
     class CustomRebel_Ukraine {
         basepath = QPATHTOFOLDER(Templates\Vanilla);
@@ -25,4 +30,16 @@ class Templates {
         name = "Ukraine";
         shortName = "UA";
     }
+
+    class RHS_Russia_2022 {
+        basepath = QPATHTOFOLDER(Templates\Templates\Vanilla);
+        side = "Inv"; 
+        flagTexture = "rhsafrf\addons\rhs_main\data\Flag_vdv_CO.paa"; 
+        name = "Russia 2022"; 
+        file = "RHS_Russia_2022"; 
+        climate[] = {"temperate","tropical","arctic"};
+        logo = "\rhsafrf\addons\rhs_main\data\rhs_logo_ca.paa";
+        shortName = "RU";
+        lore = $STR_A3A_templates_lore_VDV;
+    };
 };
