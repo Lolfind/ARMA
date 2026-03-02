@@ -455,7 +455,7 @@ _militaryLoadoutData set ["GLvests", ["6b45_6_GP_rhs", "6b45_9_GP_rhs", "rus_avs
 _militaryLoadoutData set ["backpacks", ["rhs_rk_sht_30_emr", "rhs_rk_sht_30_olive", "rhs_assault_umbts"]];
 _militaryLoadoutData set ["expBackpacks", ["rhs_rk_sht_30_olive_engineer_empty", "rhs_assault_umbts_engineer_empty", "rhs_rk_sht_30_emr_engineer_empty"]];
 _militaryLoadoutData set ["atBackpacks", ["rhs_rpg_empty"]];
-_militaryLoadoutData set ["helmets", ["rhs_6b7_1m", "rhs_6b7_1m_emr", "rhs_6b7_1m_emr_ess", "rhs_6b7_1m_ess", "rhs_6b27m_green", "rhs_6b27m_green_ess", "rhs_6b27m_digi", "rhs_6b27m_digi_ess"]];
+_militaryLoadoutData set ["helmets", ["6B47v1_2R", "6B47v1_3R", "6B47v1_5", "6B47v2_2", "6B47v2_2W", "6B47v2_2R", "6B47v2_5", "6B47v2_5R", "6B47v2_7R", "6B47v2_8", "6B47v2_9R", "kolpak_v2_7", "ops_core_1e", "ops_core_1er", "ops_core_2e", "ops_core_18"]];
 
 _militaryLoadoutData set ["lightATLaunchers", ["rhs_weap_rpg26"]];
 _militaryLoadoutData set ["lightHELaunchers", ["rhs_weap_rshg2"]];
@@ -562,7 +562,8 @@ _militaryLoadoutData set ["marksmanRifles", [
 ["rhs_weap_svdp", "", "", "rhs_acc_1pn34",["rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N14"], [], ""]
 ]];
 _militaryLoadoutData set ["sniperRifles", [
-["rhs_weap_t5000", "", "", "rhs_acc_dh520x56", [], [], "rhs_acc_harris_swivel"]
+["rhs_weap_t5000", "", "", "rhs_acc_dh520x56", [], [], "rhs_acc_harris_swivel"],
+["MMM_weap_SV98","","","CUP_optic_LeupoldMk4",["MMM_mag_SV98_7N1"],[],""]
 ]];
 _militaryLoadoutData set ["sidearms", ["rhs_weap_pya"]];
 
