@@ -449,9 +449,9 @@ _eliteLoadoutData set ["sidearms", ["rhs_weap_pya", "rhs_weap_6p53"]];
 
 private _militaryLoadoutData = _loadoutData call _fnc_copyLoadoutData;
 _militaryLoadoutData set ["uniforms", ["u_vkpo_usmc_1_emr_r", "u_vkpo_usmc_6_emr", "u_vkpo_usmc_6_emr_r", "u_vkpo_usmc_12_emr_r", "u_vkpo_usmc_13_emr_r", "u_vkpo_usmc_15_emr", "u_vkpo_usmc_16_emr_r", "u_vkpo_usmc_17_emr_r", "u_vkpo_usmc_27_emr", "u_vkpo_usmc_27_emr_r", "u_vkpo_usmc_29_emr", "u_puhovik_1_emr", "u_vkpo_usmc_11_mox"]];
-_militaryLoadoutData set ["vests", ["rhs_6b13_EMR_6sh92", "rhs_6b13_EMR_6sh92_radio", "rhs_6b23_digi_6sh92", "rhs_6b23_digi_6sh92_radio"]];
-_militaryLoadoutData set ["SLvests", ["rhs_6b23_digi_6sh92_headset", "rhs_6b23_digi_6sh92_headset_mapcase", "rhs_6b13_EMR_6sh92_headset_mapcase"]];
-_militaryLoadoutData set ["GLvests", ["rhs_6b13_EMR_6sh92_vog", "rhs_6b23_6sh116_vog", "rhs_6b23_digi_6sh92_vog"]];
+_militaryLoadoutData set ["vests", ["rus_avs_2_p_olive", "rus_avs_5_g_olive", "6b45_4_rhs", "6b45_4_P_rhs", "6b45_5_rhs", "6b45_5_P_rhs", "6b45_9_rhs", "6094_4_olive"]];
+_militaryLoadoutData set ["SLvests", ["6b45_1_G_rhs", "6b45_4_rhs", "6b45_5_rhs", "6b45_9_rhs"]];
+_militaryLoadoutData set ["GLvests", ["6b45_6_GP_rhs", "6b45_9_GP_rhs", "rus_avs_2_ngp_olive", "rus_avs_3_gp_olive"]];
 _militaryLoadoutData set ["backpacks", ["rhs_rk_sht_30_emr", "rhs_rk_sht_30_olive", "rhs_assault_umbts"]];
 _militaryLoadoutData set ["expBackpacks", ["rhs_rk_sht_30_olive_engineer_empty", "rhs_assault_umbts_engineer_empty", "rhs_rk_sht_30_emr_engineer_empty"]];
 _militaryLoadoutData set ["atBackpacks", ["rhs_rpg_empty"]];
