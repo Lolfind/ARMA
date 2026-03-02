@@ -144,15 +144,15 @@ _loadoutData set ["NVGs", ["rhs_1PN138"]];
 _loadoutData set ["binoculars", ["Binocular"]];
 _loadoutData set ["rangefinders", ["rhs_pdu4"]];
 
-_loadoutData set ["traitorUniforms", ["rhs_uniform_afghanka", "rhs_uniform_afghanka_grey", "rhs_uniform_afghanka_spetsodezhda"]];
+_loadoutData set ["traitorUniforms", ["u_vkpo_usmc_1_emr_r", "u_vkpo_usmc_6_emr", "u_vkpo_usmc_6_emr_r", "u_vkpo_usmc_12_emr_r", "u_vkpo_usmc_13_emr_r", "u_vkpo_usmc_15_emr", "u_vkpo_usmc_16_emr_r", "u_vkpo_usmc_17_emr_r", "u_vkpo_usmc_27_emr", "u_vkpo_usmc_27_emr_r", "u_vkpo_usmc_29_emr", "u_puhovik_1_emr", "u_vkpo_usmc_11_mox"]];
 _loadoutData set ["traitorVests", ["rhs_6sh92_vsr", "rhs_6sh92_vsr_radio"]];
 _loadoutData set ["traitorHats", ["H_Cap_tan", "H_Bandanna_cbr", "H_Cap_headphones"]];
 
-_loadoutData set ["officerUniforms", ["rhs_uniform_vkpo", "rhs_uniform_vkpo_alt"]];
+_loadoutData set ["officerUniforms", ["u_vkpo_usmc_1_emr_r", "u_vkpo_usmc_6_emr", "u_vkpo_usmc_6_emr_r", "u_vkpo_usmc_12_emr_r", "u_vkpo_usmc_13_emr_r", "u_vkpo_usmc_15_emr", "u_vkpo_usmc_16_emr_r", "u_vkpo_usmc_17_emr_r", "u_vkpo_usmc_27_emr", "u_vkpo_usmc_27_emr_r", "u_vkpo_usmc_29_emr", "u_puhovik_1_emr", "u_vkpo_usmc_11_mox"]];
 _loadoutData set ["officerVests", ["rhs_gear_OFF", "rhs_vest_commander", "rhs_6sh92_digi_radio"]];
 _loadoutData set ["officerHats", ["rhs_vkpo_cap_alt", "rhs_vkpo_cap"]];
 
-_loadoutData set ["cloakUniforms", ["rhs_uniform_6sh122_v2", "rhs_uniform_6sh122_gloves_v2", "rhs_uniform_6sh122_v1", "rhs_uniform_6sh122_gloves_v1"]];
+_loadoutData set ["cloakUniforms", ["u_vkpo_usmc_1_emr_r", "u_vkpo_usmc_6_emr", "u_vkpo_usmc_6_emr_r", "u_vkpo_usmc_12_emr_r", "u_vkpo_usmc_13_emr_r", "u_vkpo_usmc_15_emr", "u_vkpo_usmc_16_emr_r", "u_vkpo_usmc_17_emr_r", "u_vkpo_usmc_27_emr", "u_vkpo_usmc_27_emr_r", "u_vkpo_usmc_29_emr", "u_puhovik_1_emr", "u_vkpo_usmc_11_mox"]];
 _loadoutData set ["cloakVests", ["rhs_6sh117_svd", "rhs_6sh117_val"]];
 _loadoutData set ["cloakCarbines", [
 ["rhs_weap_ak104", "rhs_acc_pbs1", "rhs_acc_perst1ik", "", ["rhs_30Rnd_762x39mm_polymer_U", "rhs_30Rnd_762x39mm_polymer_U", "rhs_30Rnd_762x39mm_polymer_89", "rhs_30Rnd_762x39mm_polymer_tracer"], [], ""],
@@ -255,7 +255,7 @@ _loadoutData set ["goggles", ["rhs_ess_black"]];
 ///////////////////////////////////////
 
 private _sfLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
-_sfLoadoutData set ["uniforms", ["rhs_uniform_6sh122_v1", "rhs_uniform_6sh122_gloves_v1"]];
+_sfLoadoutData set ["uniforms", ["u_vkpo_usmc_1_emr_r", "u_vkpo_usmc_6_emr", "u_vkpo_usmc_6_emr_r", "u_vkpo_usmc_12_emr_r", "u_vkpo_usmc_13_emr_r", "u_vkpo_usmc_15_emr", "u_vkpo_usmc_16_emr_r", "u_vkpo_usmc_17_emr_r", "u_vkpo_usmc_27_emr", "u_vkpo_usmc_27_emr_r", "u_vkpo_usmc_29_emr", "u_puhovik_1_emr", "u_vkpo_usmc_11_mox"]];
 _sfLoadoutData set ["vests", ["rhs_6b23_digi_6sh92_Spetsnaz", "rhs_6b23_digi_6sh92_spetsnaz2", "rhs_6b23_digi_6sh92_headset_spetsnaz"]];
 _sfLoadoutData set ["GLvests", ["rhs_6b23_digi_6sh92_Vog_Radio_Spetsnaz", "rhs_6b23_digi_6sh92_Vog_Spetsnaz"]];
 _sfLoadoutData set ["backpacks", ["rhs_rk_sht_30_emr", "rhs_rk_sht_30_olive", "rhs_assault_umbts"]];
@@ -375,7 +375,7 @@ _sfLoadoutData set ["sidearms", [
 /////////////////////////////////
 
 private _eliteLoadoutData = _loadoutData call _fnc_copyLoadoutData;
-_eliteLoadoutData set ["uniforms", ["rhs_uniform_vkpo", "rhs_uniform_vkpo_alt", "rhs_uniform_vkpo_gloves", "rhs_uniform_vkpo_gloves_alt"]];
+_eliteLoadoutData set ["uniforms", ["u_vkpo_usmc_1_emr_r", "u_vkpo_usmc_6_emr", "u_vkpo_usmc_6_emr_r", "u_vkpo_usmc_12_emr_r", "u_vkpo_usmc_13_emr_r", "u_vkpo_usmc_15_emr", "u_vkpo_usmc_16_emr_r", "u_vkpo_usmc_17_emr_r", "u_vkpo_usmc_27_emr", "u_vkpo_usmc_27_emr_r", "u_vkpo_usmc_29_emr", "u_puhovik_1_emr", "u_vkpo_usmc_11_mox"]];
 _eliteLoadoutData set ["vests", ["rhs_6b45_rifleman", "rhs_6b45_rifleman_2"]];
 _eliteLoadoutData set ["SLvests", ["rhs_6b45_off"]];
 _eliteLoadoutData set ["MGvests", ["rhs_6b45_mg"]];
@@ -448,7 +448,7 @@ _eliteLoadoutData set ["sidearms", ["rhs_weap_pya", "rhs_weap_6p53"]];
 /////////////////////////////////
 
 private _militaryLoadoutData = _loadoutData call _fnc_copyLoadoutData;
-_militaryLoadoutData set ["uniforms", ["rhs_uniform_vkpo", "rhs_uniform_vkpo_alt", "rhs_uniform_vkpo_gloves", "rhs_uniform_vkpo_gloves_alt"]];
+_militaryLoadoutData set ["uniforms", ["u_vkpo_usmc_1_emr_r", "u_vkpo_usmc_6_emr", "u_vkpo_usmc_6_emr_r", "u_vkpo_usmc_12_emr_r", "u_vkpo_usmc_13_emr_r", "u_vkpo_usmc_15_emr", "u_vkpo_usmc_16_emr_r", "u_vkpo_usmc_17_emr_r", "u_vkpo_usmc_27_emr", "u_vkpo_usmc_27_emr_r", "u_vkpo_usmc_29_emr", "u_puhovik_1_emr", "u_vkpo_usmc_11_mox"]];
 _militaryLoadoutData set ["vests", ["rhs_6b13_EMR_6sh92", "rhs_6b13_EMR_6sh92_radio", "rhs_6b23_digi_6sh92", "rhs_6b23_digi_6sh92_radio"]];
 _militaryLoadoutData set ["SLvests", ["rhs_6b23_digi_6sh92_headset", "rhs_6b23_digi_6sh92_headset_mapcase", "rhs_6b13_EMR_6sh92_headset_mapcase"]];
 _militaryLoadoutData set ["GLvests", ["rhs_6b13_EMR_6sh92_vog", "rhs_6b23_6sh116_vog", "rhs_6b23_digi_6sh92_vog"]];
@@ -571,7 +571,7 @@ _militaryLoadoutData set ["sidearms", ["rhs_weap_pya"]];
 ///////////////////////////////
 
 private _policeLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
-_policeLoadoutData set ["uniforms", ["rhs_uniform_mvd_izlom"]];
+_policeLoadoutData set ["uniforms", ["u_vkpo_usmc_1_emr_r", "u_vkpo_usmc_6_emr", "u_vkpo_usmc_6_emr_r", "u_vkpo_usmc_12_emr_r", "u_vkpo_usmc_13_emr_r", "u_vkpo_usmc_15_emr", "u_vkpo_usmc_16_emr_r", "u_vkpo_usmc_17_emr_r", "u_vkpo_usmc_27_emr", "u_vkpo_usmc_27_emr_r", "u_vkpo_usmc_29_emr", "u_puhovik_1_emr"]];
 _policeLoadoutData set ["vests", ["rhs_6b2_AK", "rhs_6b2_SVD", "rhs_6sh92", "rhs_6sh92_radio"]];
 _policeLoadoutData set ["helmets", ["rhs_fieldcap_izlom", "H_Bandanna_khk", "rhs_beret_milp"]];
 _policeLoadoutData set ["SMGs", [
@@ -586,7 +586,7 @@ _policeLoadoutData set ["sidearms", ["rhs_weap_makarov_pm", "rhs_weap_6p53"]];
 ////////////////////////////////
 
 private _militiaLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
-_militiaLoadoutData set ["uniforms", ["rhs_uniform_flora", "rhs_uniform_flora_patchless", "rhs_uniform_gorka_r_g"]];
+_militiaLoadoutData set ["uniforms", ["u_vkpo_usmc_1_emr_r", "u_vkpo_usmc_6_emr", "u_vkpo_usmc_6_emr_r", "u_vkpo_usmc_12_emr_r", "u_vkpo_usmc_13_emr_r", "u_vkpo_usmc_15_emr", "u_vkpo_usmc_16_emr_r", "u_vkpo_usmc_17_emr_r", "u_vkpo_usmc_27_emr", "u_vkpo_usmc_27_emr_r", "u_vkpo_usmc_29_emr", "u_puhovik_1_emr", "u_vkpo_usmc_11_mox"]];
 _militiaLoadoutData set ["vests", ["rhs_6b3", "rhs_6b3_AK", "rhs_6b3_AK_2", "rhs_6b3_AK_3", "rhs_6sh92", "rhs_6sh92", "rhs_6sh92"]];
 _militiaLoadoutData set ["ATvests", ["rhs_6b3", "rhs_6b3_AK", "rhs_6b3_AK_2", "rhs_6b3_AK_3"]];
 _militiaLoadoutData set ["GLvests", ["rhs_6b3_VOG", "rhs_6b3_VOG_2", "rhs_6sh92_vog"]];

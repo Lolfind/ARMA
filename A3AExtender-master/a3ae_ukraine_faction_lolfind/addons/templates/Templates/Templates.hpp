@@ -3,8 +3,7 @@ class Templates {
 
 
     // Change the base class to RHS_Base and add the requiredAddons, basepath, logo, priority, and equipFlags properties. Then, create a new class for the RHS AFRF faction that inherits from RHS_Base and set the side, flagTexture, logo, name, file, and description properties.
-    class RHS_AFRF
-    {
+    class RHS_AFRF {
         basepath = QPATHTOFOLDER(Templates\Vanilla);
         side = "Inv";
         flagTexture = "rhsafrf\addons\rhs_main\data\flag_rus_co.paa";
