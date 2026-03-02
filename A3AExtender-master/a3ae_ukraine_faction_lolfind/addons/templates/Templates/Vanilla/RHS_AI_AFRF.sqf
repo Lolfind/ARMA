@@ -2,7 +2,7 @@
 //   Side Information   //
 //////////////////////////
 
-["name", "AFRF"] call _fnc_saveToTemplate;
+["name", "Russia"] call _fnc_saveToTemplate; // Changed name
 ["spawnMarkerName", format [localize "STR_supportcorridor", "AFRF"]] call _fnc_saveToTemplate;
 
 ["flag", "rhs_Flag_Russia_F"] call _fnc_saveToTemplate;
@@ -29,13 +29,13 @@
 ["vehiclesFuelTrucks", ["RHS_Ural_Fuel_MSV_01"]] call _fnc_saveToTemplate;
 ["vehiclesMedical", ["rhs_gaz66_ap2_msv"]] call _fnc_saveToTemplate;
 ["vehiclesLightAPCs", ["rhs_btr80_msv", "rhs_btr80a_msv"]] call _fnc_saveToTemplate;
-["vehiclesAirborne", ["rhs_bmd1", "rhs_bmd1p", "rhs_bmd1pk", "rhs_bmd2m", "rhs_bmd2"]] call _fnc_saveToTemplate;
-["vehiclesAPCs", ["rhs_bmd4m_vdv", "rhs_bmd4ma_vdv", "rhs_bmp3m_msv", "rhs_bmp3mera_msv", "rhs_bmp2e_msv", "rhs_bmp2_msv", "rhs_bmp2d_msv", "rhs_bmp2k_msv", "rhs_Ob_681_2"]] call _fnc_saveToTemplate;
+["vehiclesAirborne", ["umv_bmd4_ru", "rts_bmp3_b", "rts_bmpt_b", "rhs_bmd2m", "rhs_bmd2"]] call _fnc_saveToTemplate;
+["vehiclesAPCs", ["rhs_bmp3m_msv", "rhs_bmp3mera_msv", "rhs_bmp2e_msv", "rhs_bmp2_msv", "rhs_bmp2d_msv", "rhs_bmp2k_msv", "rhs_Ob_681_2"]] call _fnc_saveToTemplate;
 ["vehiclesIFVs", []] call _fnc_saveToTemplate;
 
-["vehiclesLightTanks",  ["rhs_bmd1k", "rhs_bmd1pk", "rhs_sprut_vdv", "rhs_t72ba_tv", "rhs_t80"]] call _fnc_saveToTemplate;
-["vehiclesTanks", ["rhs_t72bd_tv", "rhs_t72be_tv", "rhs_t80a", "rhs_t80bv", "rhs_t80u", "rhs_t80um", "rhs_t72bb_tv", "rhs_t90sab_tv", "rhs_t90a_tv", "rhs_t90_tv", "rhs_t90sm_tv", "rhs_t90am_tv"]] call _fnc_saveToTemplate;
-["vehiclesAA", ["rhs_zsu234_aa"]] call _fnc_saveToTemplate;
+["vehiclesLightTanks",  ["rhs_bmd1k", "rhs_bmd1pk", "rts_t55_r", "rhs_t72ba_tv", "rhs_t80"]] call _fnc_saveToTemplate;
+["vehiclesTanks", ["rts_t62m", "rhs_t72bd_tv", "rhs_t72be_tv", "rts_t80b_b", "rts_t80bv_b", "rts_t80_u_b", "rts_t80bvm_b", "rhs_t72bb_tv", "rhs_t90sab_tv", "rhs_t90a_tv", "rhs_t90_tv", "rhs_t90sm_tv", "rhs_t90am_tv"]] call _fnc_saveToTemplate;
+["vehiclesAA", ["rhs_zsu234_aa", "rts_tor_b"]] call _fnc_saveToTemplate;
 
 ["vehiclesTransportBoats", ["O_G_Boat_Transport_01_F"]] call _fnc_saveToTemplate;
 ["vehiclesGunBoats", ["B_Boat_Armed_01_minigun_F"]] call _fnc_saveToTemplate;
