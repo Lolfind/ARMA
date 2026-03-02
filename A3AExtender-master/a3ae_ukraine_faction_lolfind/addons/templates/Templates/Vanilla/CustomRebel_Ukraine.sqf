@@ -9,11 +9,11 @@
 ["flagMarkerType", "flag_UA"] call _fnc_saveToTemplate;
 
 ["vehiclesBasic", ["MMM_Cool_Pickup_covered"]] call _fnc_saveToTemplate;
-["vehiclesLightUnarmed", ["b_afougf_kozak5_unarmed_F", "BBM_Varta", "Kraz_Spartan"]] call _fnc_saveToTemplate;
-["vehiclesLightArmed", ["AKBM_MaxxPro", "MMM_Cool_Pickup_hmg", "BBM_Varta_Turret", "b_afougf_kozak5_turret_armored_F"]] call _fnc_saveToTemplate; 
+["vehiclesLightUnarmed", ["b_afougf_kozak5_unarmed_F"]] call _fnc_saveToTemplate;
+["vehiclesLightArmed", ["AKBM_MaxxPro"]] call _fnc_saveToTemplate;
 ["vehiclesTruck", ["b_afougf_Ural_Base"]] call _fnc_saveToTemplate;
-["vehiclesAT", ["rhsgref_nat_uaz_spg9", "MMM_Cool_Pickup_mrl"]] call _fnc_saveToTemplate;
-["vehiclesAA", ["rhsgref_nat_ural_Zu23", "mv_shilka_pixel"]] call _fnc_saveToTemplate;
+["vehiclesAT", ["rhsgref_nat_uaz_spg9"]] call _fnc_saveToTemplate;
+["vehiclesAA", ["rhsgref_nat_ural_Zu23"]] call _fnc_saveToTemplate;
 
 ["vehiclesBoat", ["I_C_Boat_Transport_02_F"]] call _fnc_saveToTemplate;
 
@@ -70,7 +70,6 @@ _initialRebelEquipment append ["Chemlight_blue", "Chemlight_green", "Chemlight_r
 ["initialRebelEquipment", _initialRebelEquipment] call _fnc_saveToTemplate;
 
 private _rebUniforms = [
-    "H_B_afou_guershirt_10",
     "MaWkaF",
     "SF01", 
     "SF02", 
