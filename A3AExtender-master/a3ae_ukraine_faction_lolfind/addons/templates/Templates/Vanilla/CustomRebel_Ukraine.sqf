@@ -4,7 +4,7 @@
 
 ["name", "UA"] call _fnc_saveToTemplate;
 
-["flag", "Flag_UA_F"] call _fnc_saveToTemplate;
+["flag", "Flag_Syndikat_F"] call _fnc_saveToTemplate;
 ["flagTexture", "\ua_factions_rhs\data\flags\flags_uaflag.paa"] call _fnc_saveToTemplate;
 ["flagMarkerType", "flag_UA"] call _fnc_saveToTemplate;
 
@@ -46,20 +46,22 @@
 ///////////////////////////
 
 private _initialRebelEquipment = [
-"rhs_weap_aks74", "rhs_weap_tt33", "rhs_weap_aks74u", "rhs_weap_svdp", "rhs_weap_makarov_pm", 
+"rhs_weap_aks74", "rhs_weap_tt33", "rhs_weap_aks74u", "rhs_weap_svdp", "rhs_weap_makarov_pm", "BRMC_LI_AK74MR_02", "BRMC_LI_AK74MR_03", "BRMC_LI_AK74MR_05", "MMM_weap_UAR15_MOE_MultiCam", "MMM_weap_UAR15_MOE_Safari", "MMM_weap_UAR15_MOE_ns", "afou_weapons_km_762_plastik_separokos_F",
 ["rhs_weap_rpg18", 50],
 ["IEDUrbanSmall_Remote_Mag", 10], ["IEDLandSmall_Remote_Mag", 10], ["IEDUrbanBig_Remote_Mag", 3], ["IEDLandBig_Remote_Mag", 3],
 "rhs_30Rnd_545x39_7N10_AK", "rhs_10Rnd_762x54mmR_7N14", "rhs_mag_762x25_8", "rhsgref_1Rnd_00Buck", "rhsgref_1Rnd_Slug", "rhsgref_5Rnd_792x57_kar98k", "rhs_grenade_mkii_mag", "rhs_grenade_mki_mag", "rhs_mag_rdg2_black", "rhs_grenade_m15_mag",
 "B_FieldPack_blk", "B_FieldPack_cbr", "B_FieldPack_green_F", "B_FieldPack_khk", "B_FieldPack_oli",
 "rhsgref_chestrig", "rhsgref_chicom", "rhs_vydra_3m", "rhs_vest_pistol_holster", "rhs_vest_commander", "rhs_6sh46", "rhsgref_alice_webbing",
-"rhs_acc_2dpZenit", "Binocular",
-"rhs_weap_rsp30_white",
-"rhs_weap_rsp30_green",
-"rhs_weap_rsp30_red", 
+"rhs_acc_2dpZenit", "Binocular", "rhs_weap_rsp30_white", "rhs_weap_rsp30_green", "rhs_weap_rsp30_red", 
 "rhs_acc_pso1m2",
-"H1", "H2", "H3", "H4", "H5", "H6", "H_B_afou_1M_cover_mm14_v3_01", "H_B_afou_1M_cover_mm14_v3_02",
-"Vest01r", "Vest02r", "Vest03r", "Vest04r", "Vest05r", "Vest06r", 
-"BackPack01"
+"H1", "H2", "H3", "H4", "H5", "H6", "H_B_afou_1M_cover_mm14_v3_01", "H_B_afou_1M_cover_mm14_v3_02", "Ops_Core_FAST_Green", "Ops_Core_FAST_MC", "Ops_Core_FAST_Bala_Green", "Ops_Core_FAST_Bala_Goggles_Coyote", "Ops_Core_FAST_Bala_Goggles_Green", "Ops_Core_Cover_FAST_Goggles_MM14", "Ops_Core_Cover_FAST_MC", "Ops_Core_Cover_2_FAST_MM14", "Ops_Core_FAST_Goggles_Green", 
+"Vest01r", "Vest02r", "Vest03r", "Vest04r", "Vest05r", "Vest06r", "PJ_Vests_016", "PJ_Vests_017", "PJ_Vests_025", "AGE_WAS_AK_Holster_Olive", "AGE_WAS_AK_Olive", "AGE_WAS_Special_MultiCam_Light", "AGE_WAS_Special_Holster_MultiCam", "AGE_WAS_SpecialV3_Holster_MultiCam", "AGE_WAS_SpecialV2_Holster_MultiCam", "AGE_WAS_AK_Holster_MultiCam", 
+"TAC_PlateCarrier_1_v1_1", "TAC_PlateCarrier_2_v1_1", "TAC_SRO_v1_3", "TAC_SRO_v5_1", "TAC_SRO_v12_1", "TAC_SRO_v26_1", "ukr_avs_6_g", "ukr_avs_6_gp",  
+"BackPack01", "PJ_Backpacks_011", "rus_vdk1_cbr", "rus_vdk1_rgr", "MMM_UA_MTacARMOR_545x39_MultiCam_FStd2x_LDrop_RIFAK_BSuharka",
+"MMM_UA_MTacARMOR_545x39_MultiCam_FFast2x_LDrop_RIFAK_BSuharka", "MMM_UA_MTacARMOR_556x45_MultiCam_FStd2x_LDrop_RIFAK_BSuharka",
+"MMM_UA_MTacARMOR_556x45_MultiCam_FFast2x_LDrop_RIFAK_BSuharka",
+"rhs_mag_rgd5", "rhs_mag_m67", "rhs_mag_f1", "rhs_mag_rgo", "rhs_mag_rgn",
+"rhsusf_acc_grip2", "rhsusf_acc_kac_grip", "rhs_acc_grip_ffg2", "MMM_Acc_BCMGunfighter", "rhs_acc_dtk", "ItemMavic3", "I_UavTerminal"
 ];
 
 if (A3A_hasTFAR) then {_initialRebelEquipment append ["tf_microdagr", "tf_anprc154"]};
@@ -71,26 +73,11 @@ _initialRebelEquipment append ["Chemlight_blue", "Chemlight_green", "Chemlight_r
 
 private _rebUniforms = [
     "MaWkaF",
-    "SF01", 
-    "SF02", 
-    "SF03", 
-    "SF04", 
-    "SF05", 
-    "SF06", 
-    "SF07", 
-    "SF08", 
-    "SF09", 
-    "SF10", 
-    "SF11", 
-    "SF12",
-    "Inf01", 
-    "Inf02", 
-    "Inf03", 
-    "Inf04", 
-    "Inf05", 
-    "Inf06", 
-    "Inf08", 
-    "Soldier01"
+    "SF01", "SF02", "SF03", "SF04", "SF05", "SF06", "SF07", "SF08", "SF09", "SF10", "SF11", "SF12",
+    "Inf01", "Inf02", "Inf03", "Inf04", "Inf05", "Inf06", "Inf08", 
+    "Soldier01",
+    "PJ_Uniforms_004", "PJ_Uniforms_006", "PJ_Uniforms_010", "PJ_Uniforms_028", 
+    "Gen2_fs_mex_salomon_MC", "Gen3_rs_mex_lowa_MC", "u_ukr_mccu_tshirt_2_mc", "norris_ukraine_hood"
 ];
 
 private _dlcUniforms = [];
