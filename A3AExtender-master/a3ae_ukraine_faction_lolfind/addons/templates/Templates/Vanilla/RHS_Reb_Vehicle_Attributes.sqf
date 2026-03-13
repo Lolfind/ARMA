@@ -10,5 +10,9 @@
     ["MMM_Cool_Pickup_hmg", ["rebCost", 800]], // light pickup with MG
     ["MMM_Cool_Pickup_mrl", ["rebCost", 3000]], // light pickup with MLRS
     ["MMM_Cool_Pickup_covered", ["rebCost", 300]],
-    ["mv_shilka_pixel", ["rebCost", 3000]] // Good AA
+    ["mv_shilka_pixel", ["rebCost", 6000]], // Good AA
+    ["c_uacivil_tracktor_01", ["rebCost", 50]], 
+
+
+    ["pook_AN225_UKA", ["rebCost", 999999]] // mria
 ]] call _fnc_saveToTemplate;

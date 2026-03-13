@@ -9,18 +9,18 @@
 ["flagMarkerType", "flag_UA"] call _fnc_saveToTemplate;
 
 ["vehiclesBasic", ["MMM_Cool_Pickup_covered"]] call _fnc_saveToTemplate;
-["vehiclesLightUnarmed", ["b_afougf_kozak5_unarmed_F"]] call _fnc_saveToTemplate;
-["vehiclesLightArmed", ["AKBM_MaxxPro"]] call _fnc_saveToTemplate;
+["vehiclesLightUnarmed", ["b_afougf_kozak5_unarmed_F", "BBM_Varta", "Kraz_Spartan"]] call _fnc_saveToTemplate;
+["vehiclesLightArmed", ["AKBM_MaxxPro", "BBM_Varta_Turret", "b_afougf_kozak5_turret_armored_F", "MMM_Cool_Pickup_hmg"]] call _fnc_saveToTemplate;
 ["vehiclesTruck", ["b_afougf_Ural_Base"]] call _fnc_saveToTemplate;
-["vehiclesAT", ["rhsgref_nat_uaz_spg9"]] call _fnc_saveToTemplate;
-["vehiclesAA", ["rhsgref_nat_ural_Zu23"]] call _fnc_saveToTemplate;
+["vehiclesAT", ["rhsgref_nat_uaz_spg9", "MMM_Cool_Pickup_mrl"]] call _fnc_saveToTemplate;
+["vehiclesAA", ["rhsgref_nat_ural_Zu23", "mv_shilka_pixel"]] call _fnc_saveToTemplate;
 
 ["vehiclesBoat", ["I_C_Boat_Transport_02_F"]] call _fnc_saveToTemplate;
 
-["vehiclesPlane", ["RHS_AN2"]] call _fnc_saveToTemplate;
+["vehiclesPlane", ["RHS_AN2", "pook_AN225_UKA"]] call _fnc_saveToTemplate;
 ["vehiclesMedical", ["rhs_gaz66_ap2_msv"]] call _fnc_saveToTemplate;
 
-["vehiclesCivCar", ["C_Offroad_01_F", "C_Hatchback_01_F", "C_Hatchback_01_sport_F", "C_SUV_01_F"]] call _fnc_saveToTemplate;
+["vehiclesCivCar", ["c_uacivil_tracktor_01", "C_Offroad_01_F", "C_Hatchback_01_F", "C_Hatchback_01_sport_F", "C_SUV_01_F"]] call _fnc_saveToTemplate;
 ["vehiclesCivTruck", ["RHS_Ural_Open_Civ_01", "C_Van_01_transport_F", "C_Van_02_transport_F", "C_Van_02_vehicle_F"]] call _fnc_saveToTemplate;
 ["vehiclesCivHeli", ["RHS_Mi8t_civilian"]] call _fnc_saveToTemplate;
 ["vehiclesCivBoat", ["C_Boat_Civil_01_F", "C_Rubberboat", "rhsgref_civ_canoe"]] call _fnc_saveToTemplate;
