@@ -315,7 +315,7 @@ _sfLoadoutData set ["sniHats", ["sso_hat"]];
 
 _sfLoadoutData set ["binoculars", ["rhs_pdu4"]];
 _sfLoadoutData set ["lightATLaunchers", ["rhs_weap_rpg26"]];
-_sfLoadoutData set ["lightHELaunchers", ["rhs_weap_rshg2"]];
+_sfLoadoutData set ["lightHELaunchers", ["MMM_weap_RPG22_black"]];
 _sfLoadoutData set ["ATLaunchers", [
 ["rhs_weap_rpg7", "", "", "rhs_acc_pgo7v2", ["rhs_rpg7_PG7VL_mag", "rhs_rpg7_PG7VL_mag", "rhs_rpg7_PG7VS_mag"], [], ""],
 ["rhs_weap_rpg7", "", "", "rhs_acc_pgo7v2", ["rhs_rpg7_PG7VL_mag", "rhs_rpg7_OG7V_mag", "rhs_rpg7_OG7V_mag"], [], ""],
@@ -442,7 +442,7 @@ _eliteLoadoutData set ["slHat", ["rhs_6b47_6m2_1"]];
 _eliteLoadoutData set ["binoculars", ["rhs_pdu4"]];
 
 _eliteLoadoutData set ["lightATLaunchers", ["rhs_weap_rpg26"]];
-_eliteLoadoutData set ["lightHELaunchers", ["rhs_weap_rshg2"]];
+_eliteLoadoutData set ["lightHELaunchers", ["MMM_weap_RPG22_black"]];
 _eliteLoadoutData set ["ATLaunchers", [
 ["rhs_weap_rpg7", "", "", "rhs_acc_pgo7v3", ["rhs_rpg7_PG7VS_mag", "rhs_rpg7_PG7VS_mag", "rhs_rpg7_PG7VR_mag"], [], ""],
 ["rhs_weap_rpg7", "", "", "rhs_acc_1pn93_2", ["rhs_rpg7_PG7VS_mag", "rhs_rpg7_PG7VS_mag", "rhs_rpg7_PG7VR_mag"], [], ""],
@@ -571,7 +571,7 @@ _militaryLoadoutData set ["atBackpacks", ["rus_6sh117_4", "rus_6sh117_6"]];
 _militaryLoadoutData set ["helmets", ["lshz_v1_11r", "lshz_v1_3r", "lshz_v1_5r", "lshz_v1_7r", "lshz_v2_7_mc", "6B47v1_5R", "6B47v1_4R", "ops_core_4m", "ops_core_4er"]];
 
 _militaryLoadoutData set ["lightATLaunchers", ["rhs_weap_rpg26"]];
-_militaryLoadoutData set ["lightHELaunchers", ["rhs_weap_rshg2"]];
+_militaryLoadoutData set ["lightHELaunchers", ["MMM_weap_RPG22_black"]];
 _militaryLoadoutData set ["ATLaunchers", [
 ["rhs_weap_rpg7", "", "", "rhs_acc_pgo7v2", ["rhs_rpg7_PG7VL_mag", "rhs_rpg7_PG7VL_mag", "rhs_rpg7_OG7V_mag"], [], ""],
 ["rhs_weap_rpg7", "", "", "rhs_acc_pgo7v2", ["rhs_rpg7_PG7VL_mag", "rhs_rpg7_PG7VL_mag", "rhs_rpg7_PG7VM_mag"], [], ""],
@@ -765,7 +765,7 @@ _militiaLoadoutData set ["helmets", ["6B47v1_1", "6B47v1_2", "6B47v1_3", "6B47v1
 _militiaLoadoutData set ["slHat", ["6B47v2_1R", "6B47v2_2R", "6B47v2_3R", "6B47v2_4R", "6B47v2_5R", "6B47v2_6R", "6B47v2_7R", "6B47v2_8R", "6B47v2_9R"]];
 _militiaLoadoutData set ["sniHats", ["rhs_Booniehat_flora"]];
 
-_militiaLoadoutData set ["lightATLaunchers", ["rhs_weap_rpg26"]];
+_militiaLoadoutData set ["lightATLaunchers", ["MMM_weap_RPG22_black"]];
 _militiaLoadoutData set ["ATLaunchers", [
 ["rhs_weap_rpg7", "", "", "", ["rhs_rpg7_PG7V_mag", "rhs_rpg7_PG7V_mag", "rhs_rpg7_PG7VM_mag"], [], ""]
 ]];
