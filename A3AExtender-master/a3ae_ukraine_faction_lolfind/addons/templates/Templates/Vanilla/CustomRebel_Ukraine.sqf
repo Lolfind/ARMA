@@ -49,7 +49,7 @@ private _initialRebelEquipment = [
 "rhs_weap_aks74", "rhs_weap_tt33", "rhs_weap_aks74u", "rhs_weap_makarov_pm", "MMM_weap_UAR15_MOE_MultiCam", "MMM_weap_UAR15_MOE_Safari", "MMM_weap_UAR15_MOE_ns",
 ["MMM_weap_RPG18", 10],
 ["IEDUrbanSmall_Remote_Mag", 10], ["IEDLandSmall_Remote_Mag", 10], ["IEDUrbanBig_Remote_Mag", 3], ["IEDLandBig_Remote_Mag", 3],
-"rhs_30Rnd_545x39_7N10_AK", "rhs_mag_762x25_8", "rhsgref_1Rnd_00Buck", "rhsgref_1Rnd_Slug", "rhsgref_5Rnd_792x57_kar98k", "rhs_grenade_mkii_mag", "rhs_grenade_mki_mag", "rhs_mag_rdg2_black", "rhs_grenade_m15_mag",
+"rhs_30Rnd_545x39_7N10_AK", "rhs_mag_762x25_8", "rhsgref_1Rnd_00Buck", "rhsgref_1Rnd_Slug", "rhsgref_5Rnd_792x57_kar98k", "rhs_grenade_mkii_mag", "rhs_grenade_mki_mag", "rhs_mag_rdg2_black", "rhs_grenade_m15_mag", "rhs_mag_30Rnd_556x45_M855_Stanag",
 "B_FieldPack_blk", "B_FieldPack_cbr", "B_FieldPack_green_F", "B_FieldPack_khk", "B_FieldPack_oli",
 "rhs_acc_2dpZenit", "Binocular", "rhs_weap_rsp30_white", "rhs_weap_rsp30_green", "rhs_weap_rsp30_red", 
 "H1", "H2", "H3", "H4", "H5", "H6", "H_B_afou_1M_cover_mm14_v3_01", "H_B_afou_1M_cover_mm14_v3_02", "Ops_Core_FAST_Green", "Ops_Core_FAST_MC", "Ops_Core_FAST_Bala_Green", "Ops_Core_FAST_Bala_Goggles_Coyote", "Ops_Core_FAST_Bala_Goggles_Green", "Ops_Core_Cover_FAST_Goggles_MM14", "Ops_Core_Cover_FAST_MC", "Ops_Core_Cover_2_FAST_MM14", "Ops_Core_FAST_Goggles_Green", 
@@ -58,7 +58,11 @@ private _initialRebelEquipment = [
 "BackPack01", "PJ_Backpacks_011", "rus_vdk1_cbr", "rus_vdk1_rgr", "MMM_UA_MTacARMOR_545x39_MultiCam_FStd2x_LDrop_RIFAK_BSuharka",
 "MMM_UA_MTacARMOR_545x39_MultiCam_FFast2x_LDrop_RIFAK_BSuharka", "MMM_UA_MTacARMOR_556x45_MultiCam_FStd2x_LDrop_RIFAK_BSuharka",
 "MMM_UA_MTacARMOR_556x45_MultiCam_FFast2x_LDrop_RIFAK_BSuharka",
-"rhs_mag_rgd5", "rhs_mag_m67", "rhs_mag_f1", "rhs_mag_rgo", "rhs_mag_rgn", "rhs_acc_dtk"
+"rhs_mag_rgd5", "rhs_mag_m67", "rhs_mag_f1", "rhs_mag_rgo", "rhs_mag_rgn", "rhs_acc_dtk",
+"greenmag_ammo_545x39_basic_30Rnd", "greenmag_ammo_545x39_basic_60Rnd", "greenmag_ammo_556x45_basic_30Rnd", "greenmag_ammo_556x45_basic_60Rnd",
+"greenmag_ammo_762x39_basic_30Rnd", "greenmag_ammo_762x39_basic_60Rnd", "greenmag_ammo_762x51_basic_30Rnd", "greenmag_ammo_762x51_basic_60Rnd",
+"greenmag_ammo_762x54_basic_30Rnd", "greenmag_ammo_762x54_basic_60Rnd", "greenmag_ammo_9x18_basic_30Rnd", "greenmag_ammo_9x18_basic_60Rnd",
+"greenmag_ammo_9x19_basic_30Rnd", "greenmag_ammo_9x19_basic_60Rnd", "rhs_mag_9x18_8_57N181S"
 ];
 
 if (A3A_hasTFAR) then {_initialRebelEquipment append ["tf_microdagr", "tf_anprc154"]};
