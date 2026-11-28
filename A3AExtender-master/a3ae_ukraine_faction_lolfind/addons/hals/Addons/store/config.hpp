@@ -34,19 +34,19 @@ class cfgHALsStore
 		{
 			displayName = $STR_ARMS_DEALER_STORE;
 			categories[] = {
-				"handgunsVanilla",
-				"riflesVanilla", 
-				"sniperRiflesVanilla", 
-				"mgVanilla",
-				"smgVanilla",
-				"launchersVanilla",
-				"launcherMagazinesVanilla",
-				"navigationVanilla",
-				"pointersVanilla",
-				"muzzlesVanilla",
-				"opticsVanilla",
-				"magazinesVanilla",  
-				"miscVanilla"
+				"handgunsUkraine",
+				"riflesUkraine", 
+				"sniperRiflesUkraine", 
+				"mgUkraine",
+				"smgUkraine",
+				"launchersUkraine",
+				"launcherMagazinesUkraine",
+				"navigationUkraine",
+				"pointersUkraine",
+				"muzzlesUkraine",
+				"opticsUkraine",
+				"magazinesUkraine",  
+				"miscUkraine"
 			};
 		};
 	};

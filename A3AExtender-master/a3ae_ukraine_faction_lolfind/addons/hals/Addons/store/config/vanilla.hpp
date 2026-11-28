@@ -69,25 +69,33 @@
 			displayName = "Ukrainian Launcher Magazines";
 			picture = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoMag_ca.paa";
 
-			MMM_mag_TBG7V {
+			class MMM_mag_TBG7V {
 				price = 500;
 				stock = 10;
-			}
-			MMM_mag_PG7VR {
+			};
+			class MMM_mag_PG7VR {
 				price = 350;
 				stock = 10;
-			}
-			MMM_mag_PG7VM {
+			};
+			class MMM_mag_PG7VM {
 				price = 150;
 				stock = 25;
-			}
-			MMM_mag_PG7VL {
+			};
+			class MMM_mag_PG7VL {
 				price = 150;
 				stock = 25;
-			}
-			MMM_mag_PG7V {
+			};
+			class MMM_mag_PG7V {
 				price = 100;
 				stock = 50;
+			};
+			class MMM_mine_TM62M {
+				price = 100;
+				stock = 10;
+			};
+			class MMM_grenade_TM62M {
+				price = 100;
+				stock = 10;
 			}
 		};
 
@@ -96,14 +104,19 @@
 			displayName = "Ukrainian utility items";
 			picture = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\compass_ca.paa";
 
-			ITEM(ItemGPS, 0, NN_STOCK);
-			ITEM(ItemRadio, 0, NN_STOCK);
-			ITEM(Rangefinder, 0, NN_STOCK);
-			ITEM(Laserdesignator, 0, NN_STOCK);
+			ITEM(ItemGPS, 100, NN_STOCK);
 
-			ITEM(NVGoggles, 0, NN_STOCK);
-			ITEM(NVGoggles_INDEP, 0, NN_STOCK);
-			ITEM(NVGoggles_OPFOR, 0, NN_STOCK);
+			ITEM(I_UavTerminal, 300, NN_STOCK);
+			
+			ITEM(iteamtgopro2, 150, NN_STOCK);
+			ITEM(MMM_UA_L3PVS14_W_cup_Kaska1M, 4800, NN_STOCK);
+			ITEM(MMM_UA_PVS7_Kaska1M, 1200, NN_STOCK);
+			ITEM(MMM_UA_AGMPVS14_cup_Kaska1M, 3000, NN_STOCK);
+
+			class ACE_UAVBattery {
+				price = 50;
+				stock = 100;
+			};
 		};
 
 		class pointersUkraine
@@ -111,10 +124,16 @@
 			displayName = "Ukrainian Pointers";
 			picture = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemAcc_ca.paa";
 
-			ITEM(acc_flashlight, 0, PN_STOCK);
-			ITEM(acc_flashlight_smg_01, 0, PN_STOCK);
-			ITEM(acc_pointer_IR, 0, PN_STOCK);
-			ITEM(acc_flashlight_pistol, 0, PN_STOCK);
+			// Moe ak laser 1
+			ITEM(BRMC_AK74_02_Side_01_MIX, 200, PN_STOCK);
+			ITEM(BRMC_AK74_02_Side_02_MIX, 200, PN_STOCK);
+			ITEM(BRMC_AK74_02_Side_03_MIX, 200, PN_STOCK);
+			// troy ak laser 2
+			ITEM(BRMC_AK74_04_Side_01_MIX, 200, PN_STOCK);
+			ITEM(BRMC_AK74_04_Side_02_MIX, 200, PN_STOCK);
+			ITEM(BRMC_AK74_04_Side_03_MIX, 200, PN_STOCK);
+
+
 		};
 
 		class muzzlesUkraine 
@@ -122,7 +141,24 @@
 			displayName = "Ukrainian Muzzles";
 			picture = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemMuzzle_ca.paa";
 
-			ITEM(muzzle_snds_acp, 0, MZ_STOCK);
+			ITEM(Corso_Sup_F, 500, MZ_STOCK);
+			ITEM(DTKWORN_F, 300, MZ_STOCK);
+			ITEM(MMM_acc_Putnik, 300, MZ_STOCK);
+			ITEM(MMM_acc_DTK4_545, 500, MZ_STOCK);
+
+			ITEM(MMM_acc_Rotor43_SVD, 500, MZ_STOCK);
+			ITEM(MMM_acc_Rotor43_545, 500, MZ_STOCK);
+
+			ITEM(MMM_acc_TGPv2, 300, MZ_STOCK);
+			ITEM(MMM_acc_TGPa, 300, MZ_STOCK);
+
+			ITEM(itemManta_Low_F, 1000, MZ_STOCK);
+			ITEM(Manta_High_F, 1000, MZ_STOCK);
+			ITEM(MMM_acc_ZboryarFAST_Safari, 800, MZ_STOCK);
+			ITEM(MMM_acc_ZboryarFAST_MultiCam, 800, MZ_STOCK);
+			ITEM(MMM_acc_ZboryarFAST_Desert, 800, MZ_STOCK);
+			ITEM(MMM_acc_ZboryarFAST, 800, MZ_STOCK);
+
 		};
 
 		class opticsUkraine
@@ -130,10 +166,9 @@
 			displayName = "Ukrainian Optics";
 			picture = "\A3\Ui_f\data\GUI\Rsc\RscDisplayArsenal\ItemOptic_ca.paa";
 
-			class optic_tws {
-				price = 0;
-				stock = 5;
-			};
+			ITEM(MMM_acc_ATNxSight2, 1500, 10);
+			ITEM(SCOPE_Eotech551_L3_Riser_CAMO2_Up, 700, 10);
+			ITEM(SCOPE_Eotech551_L3_Riser_CAMO1_Up, 700, 10);
 		};
 
 		class magazinesUkraine 
@@ -144,57 +179,48 @@
 			///////////////////////////////////////////////////////
 			// Underbarrel
 			///////////////////////////////////////////////////////
-			class 1Rnd_HE_Grenade_shell {
-				price = 0;
-				stock = MAGAZINE_STOCK;
-			};
+			
 
 
 			///////////////////////////////////////////////////////
 			// Pistols, SMGs
 			///////////////////////////////////////////////////////
 
-			class 9Rnd_45ACP_Mag {
-				price = 0;
-				stock = MAGAZINE_STOCK;
-			};
-
+			ITEM(AFOU_15Rnd_9x18_Mag, 100, MAGAZINE_STOCK);
 
 			///////////////////////////////////////////////////////
 			// RIFLES
 			///////////////////////////////////////////////////////
 
-			class 30Rnd_65x39_caseless_green {
-				price = 0;
-				stock = MAGAZINE_STOCK;
-			};
+			ITEM(MMM_mag_545x39_6L2301_7N40, 450, MAGAZINE_STOCK);
+			ITEM(BASTION_545_PMAG_Black_7n22, 300, MAGAZINE_STOCK);
+			ITEM(BASTION_545_PMAG_Black_7n10, 150, MAGAZINE_STOCK);
+
+
+			ITEM(BASTION_40rnd_PMAG_FDE_262, 600, MAGAZINE_STOCK);
+			ITEM(BASTION_40rnd_PMAG_BLC_262, 600, MAGAZINE_STOCK);
+			ITEM(BASTION_40rnd_PMAG_BLC_318, 500, MAGAZINE_STOCK);
+			ITEM(BASTION_40rnd_PMAG_FDE_318, 500, MAGAZINE_STOCK);
+
 
 			///////////////////////////////////////////////////////
 			// DMRs, Sniper Rifles
 			///////////////////////////////////////////////////////
-			class 5Rnd_127x108_Mag {
-				price = 0;
-				stock = MAGAZINE_STOCK;
-			};
+
+			ITEM(iLTF_SVCH_RedTracers_20Rnd, 1000, MAGAZINE_STOCK);
+			ITEM(LTF_SVCH_20Rnd, 1000, MAGAZINE_STOCK);
 
 	
 			///////////////////////////////////////////////////////
 			// MGs
 			///////////////////////////////////////////////////////
 
-			class 200Rnd_556x45_Box_F {
-				price = 0;
-				stock = MAGAZINE_STOCK;
-			};
 
 
 			///////////////////////////////////////////////////////
 			// SMGs
 			///////////////////////////////////////////////////////
-			class 50Rnd_570x28_SMG_03 {
-				price = 0;
-				stock = MAGAZINE_STOCK;
-			};
+
 		};
 
 		class miscUkraine 
@@ -202,5 +228,21 @@
 			displayName = "Ukrainian Miscellaneous";
 			picture = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\backpack_ca.paa";
 
-			ITEM(I_Crocus_AP_Bag, 500, MISC_STOCK);
+			// recon drones
+			ITEM(ItemMavic3T, 7000, 1);
+
+			ITEM(ItemMavic3, 5000, 5);
+
+			// fpv drones
+			ITEM(I_UAFPV_AT_Bag, 500, 10);
+			ITEM(I_UAFPV_AP_Bag, 700, 10);
+			ITEM(I_UAFPV_RKG_Bag, 700, 5);
+			ITEM(I_UAFPV_AT_TI_Bag, 1500, 5);
+
+			ITEM(I_KVN_AP_Bag, 700, 10);
+			ITEM(I_KVN_AT_Bag, 500, 10);
+
+			// termal drones
+			ITEM(I_KVN_AP_TI_Bag, 1700, 5);	
+			ITEM(I_KVN_AT_TI_Bag, 1500, 5);
 		};
