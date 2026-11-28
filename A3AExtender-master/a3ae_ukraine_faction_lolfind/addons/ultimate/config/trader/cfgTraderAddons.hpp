@@ -11,5 +11,5 @@
     {
         addons[] = {"A3_Armor_F", "A3_Weapons_F"};
         weapons = "my_extension_weapons_vanilla";
-        vehicles = "my_extension_vehicles_vanilla";
+        vehicles = "ua_vehicles_ukraine";
     };
